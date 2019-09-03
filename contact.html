@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="contact__content">
     <header>
@@ -25,28 +26,55 @@
         <section class="contact">
             <div class="container">
                 <div class="row z-500 bs__grey">
-                    <div class="col-9">
+                    <div class="col-9  z-500">
                         <section class="contact__form-section">
-                            <form action="">
-                                <h3>Send Us A Message</h3>
-                                <!-- placeholder text -->
-                                <p>
-                                    Lorem ipsum dolor, sit amet consectetur adi
-                                    pisicing elit. Ipsam, facilis nisi nihil doloribus repellendus ad expedita praesentium
-                                     vero aperiam odit! Dolore nam minima in, vitae delectus eligendi hic dignissimos earum.
-
-                                     Lorem ipsum dolor, sit amet consectetur adi
-                                    pisicing elit. Ipsam, facilis nisi nihil doloribus repellendus ad expedita praesentium
-                                     vero aperiam odit! Dolore nam minima in, vitae delectus eligendi hic dignissimos earum.
-
-                                     Lorem ipsum dolor, sit amet consectetur adi
-                                    pisicing elit. Ipsam, facilis nisi nihil doloribus repellendus ad expedita praesentium
-                                     vero aperiam odit! Dolore nam minima in, vitae delectus eligendi hic dignissimos earum.
-                                </p>
-                            </form>
+                            <div class="main">
+                                <div class="container">
+                                    <div class="box"> 
+                                        <h3>Send us a Message</h3>
+                                        <form class="form-inline">
+                                            <div class="box-row"> 
+                                                <div class="box-cell box1"> 
+                                                    <label for="fullname">Fullname</label> <br>
+                                                    <input type="text" id="fullname" autofocus>
+                                                </div> 
+                            
+                                                <div class="box-cell box1"> 
+                                                    <label for="email">Email</label> <br>
+                                                    <input type="text" id="email">
+                                                </div> 
+                                            </div>
+                            
+                                            <div class="box-row"> 
+                                            <div class="box-cell box2"> 
+                                                <label for="phone">Phone</label> <br>
+                                                <input type="text" id="fullname">
+                                            </div> 
+                                
+                                            <div class="box-cell box2"> 
+                                                <label for="select">Feedback Type</label> <br>
+                                                <select id="select">
+                                                    <option>Payment Enquiry</option>
+                                                    <option>Refund Enquiry</option>
+                                                    <option>I'd like to Suggest</option>
+                                                    <option>Others</option>
+                                                </select>
+                                            </div> 
+                                            </div>
+                                            <div class="text-area"> 
+                                                <label for="text-area">Description</label> <br>
+                                                <textarea class="input__textarea"></textarea>
+                                            </div> 
+                                            <div  class="btn">
+                                                <button type="submit">Submit</button>
+                                            </div>
+                                        </form>
+                                    </div> 
+                                </div>
+                            </div>
                         </section>
                     </div>
-                    <div class="col-2">
+                    <div class="col-2  z-500">
                         <section class="contact__info-section">
                             <div class="">
                                 <h3 class="mb__2">Contact Information</h3>
@@ -142,6 +170,5 @@
         </div>
 
     </footer>
-    
 </body>
 </html>

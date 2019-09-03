@@ -110,18 +110,16 @@ h3 {
   background: #6C63FF;
   color: #fff;
   padding: 2rem;
-  height: 400px;
 }
 
-/* line 82, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+/* line 81, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
 .contact__info-section {
   padding: 2rem;
   background: #fff;
-  height: 400px;
-  margin-bottom: 1rem;
+  height: 100%;
 }
 
-/* line 88, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+/* line 86, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
 .top__footer {
   padding: 2rem;
   background: #4d4d4d;
@@ -129,23 +127,23 @@ h3 {
   margin-top: -5rem;
 }
 
-/* line 93, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+/* line 91, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
 .top__footer .social {
   margin-top: 2rem;
 }
 
-/* line 95, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+/* line 93, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
 .top__footer .social i {
   color: #6C63FF;
   padding: 0 10px;
 }
 
-/* line 101, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+/* line 99, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
 .z-500 {
   z-index: 500;
 }
 
-/* line 105, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+/* line 103, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
 footer.footer {
   background: #000;
   padding: 1.5rem;
@@ -153,31 +151,31 @@ footer.footer {
   color: #fff;
 }
 
-/* line 112, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+/* line 110, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
 .footer__nav {
   list-style-type: none;
 }
 
-/* line 114, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+/* line 112, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
 .footer__nav li {
   margin-bottom: 0.7rem;
   color: #fff;
 }
 
-/* line 117, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+/* line 115, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
 .footer__nav li a {
   color: #ffff;
   text-decoration: none;
 }
 
-/* line 120, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+/* line 118, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
 .footer__nav li a:hover {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
 }
 
-/* line 128, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
+/* line 126, ../../../HNG/hng-contact/assets/scss/base/_base.scss */
 .text__right {
   text-align: right;
 }

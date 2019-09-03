@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tax NG | Contact Page</title>
+    <title>TaxitNG | Contact Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+   <div class="main">
+      <div class="container">
+         <div class="box"> 
+            <h3>Send us a Message</h3>
+            <form class="form-inline">
+               <div class="box-row"> 
+                  <div class="box-cell box1"> 
+                     <label for="fullname">Fullname</label> <br>
+                     <input type="text" id="fullname" autofocus>
+                  </div> 
+
+                  <div class="box-cell box1"> 
+                     <label for="email">Email</label> <br>
+                     <input type="text" id="email">
+                  </div> 
+               </div>
+
+               <div class="box-row"> 
+                  <div class="box-cell box2"> 
+                     <label for="phone">Phone</label> <br>
+                     <input type="text" id="fullname">
+                  </div> 
+   
+                  <div class="box-cell box2"> 
+                     <label for="select">Feedback Type</label> <br>
+                     <select id="select">
+                        <option>Payment Enquiry</option>
+                        <option>Refund Enquiry</option>
+                        <option>I'd like to Suggest</option>
+                        <option>Others</option>
+                     </select>
+                  </div> 
+               </div>
+                  <div class="text-area"> 
+                     <label for="text-area">Description</label> <br>
+                     <textarea rows="10" cols="60"></textarea>
+                  </div> 
+                  <div  class="btn">
+                      <button type="submit">Submit</button>
+                  </div>
+            </form>
+         </div> 
+      </div>
+   </div>
 </body>
 </html>

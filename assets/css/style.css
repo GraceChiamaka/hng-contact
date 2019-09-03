@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.main {
+  margin: auto;
+  width: 100%;
+  max-width: 70%;
+  background-color: #6c63ff;
+  position: absolute;
+  height: 600px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.container {
+  display: 100%;
+}
+
+h3 { 
+  text-align:left; 
+  color:#ffffff; 
+  margin-left: 15px;
+  margin-bottom: 20px;
+} 
+
+.container .box { 
+  width:540px; 
+  margin:50px; 
+  display:table; 
+} 
+
+.container .box .box-row { 
+  display:table-row; 
+} 
+
+.container .box .box-cell { 
+  display:table-cell; 
+  width:20%; 
+  padding:10px; 
+}
+
+.container .box .box-cell.box1 { 
+  color:#ffffff; 
+  text-align:justify; 
+} 
+
+.container .box .box-cell.box2 { 
+  text-align:justify;
+  color:#ffffff; 
+} 
+
+.form-inline input, select {
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: 5px;
+}
+
+.form-inline label {
+ margin: 5px;
+}
+
+.form-inline select {
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: 5px;
+  width: 190px;
+}
+
+.text-area label {
+  margin-bottom: 10px;
+  padding: 10px;
+  color: #ffffff;
+  text-align:justify;
+}
+
+textarea {
+  padding: 10px;
+  margin: 10px;
+}
+
+.btn button {
+  border: none;
+  box-shadow: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: #252258;
+  color: #ffffff;
+  width: 100px;
+}
+
+
+

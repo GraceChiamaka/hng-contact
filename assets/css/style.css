@@ -9,7 +9,7 @@
   display: 100%;
 }
 
-h3 { 
+.form__heading { 
   text-align:left; 
   color:#ffffff; 
   margin-left: 15px;
@@ -85,6 +85,30 @@ textarea {
   height: 150px;
 }
 
+@media (min-width: 768px) and (max-width: 991px)  {
+  .container .box{
+    width: 100%;
+  }
+  .btn button {
+    width: 95%;
+  }
+  .container .box .box-row { 
+    display: block; 
+  } 
+  
+  .container .box .box-cell { 
+    display:block; 
+    width:100%; 
+    padding:10px; 
+  }
+  .form-inline input, .form-inline select{
+    width: 100%;
+  }
+  .container .box .box-cell.box1 { 
+    color:#ffffff; 
+    text-align:justify; 
+  } 
+}
 @media (max-width: 575px)  {
   .container .box{
     width: 100%;
